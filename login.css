@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(lb.png); */
+    background-color: black;
+ 
+}
+.Container h2{
+    color: black;
+    margin-top: 10px;
+}
+
+.Container {
+    text-align: center;
+    background-color: rgb(240, 221, 108); /* Set the background color of the container to blue */
+    height: 300px;
+    width: 250px; /* Set a width for the container */
+    border-radius: 5%;
+}
+
+
+.Container form {
+    margin-top: 35px;
+}
+
+.Container label,
+.Container input[type="text"],
+.Container input[type="password"],
+.Container input[type="submit"] {
+    font-size: 16px; 
+    padding: 8px; 
+    border-radius: 6%;
+    text-decoration: none;
+}
+.Container input[type="submit"]{
+    background-color: rgb(39, 38, 38);
+    border: 2px;
+    border-radius: 10%;
+    color: aliceblue;
+    margin-top: 20px;
+    
+}
+.Container h4{
+    margin-top: 25px;
+}

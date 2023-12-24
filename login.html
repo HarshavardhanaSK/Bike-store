@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="Container">
+    <h2>LOGIN </h2>
+    
+    <form id="registrationForm" onsubmit="return validateForm()">
+       
+        <input type="text" id="name" placeholder="User id" name="name" required>
+        <br><br>
+        
+        <input type="password" id="password" placeholder="Password" name="password" required>
+        <br><br>
+        <input type="submit" value="Register">
+    </form>
+    <h4>Don't have an account ?</h4>
+    <a href="">Create account</a>
+    
+    
+</div>
+<script src="login.js"></script>
+</body>
+</html>
